@@ -1,8 +1,8 @@
 class Spider{
     constructor(game){
         this.game=game;
-        this.animator = new Animator(ASSET_MANAGER.getAsset("./Spider.png"), -2, 0 , 37,78, 12, 0.2);
-        //const runningAnimator = new Animator(ASSET_MANAGER.getAsset("./SailorMoon.png"), 4, 0, 64, 64, 10, 0.1);
+       this.animator = new Animator(ASSET_MANAGER.getAsset("./Spider.png"), 0, 0 ,175, 200, 6, 0.4);
+       //const runningAnimator = new Animator(ASSET_MANAGER.getAsset("./SailorMoon.png"), 4, 0, 64, 64, 10, 0.1);
 
 // Jumping animation
 //const jumpingAnimator = new Animator(ASSET_MANAGER.getAsset("./SailorMoon.png"), 5, 0, 64, 64, 6, 0.2);
